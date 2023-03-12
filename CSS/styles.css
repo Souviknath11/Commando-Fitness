@@ -1,0 +1,141 @@
+body{
+  color: #DDDDDD;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Carter One', cursive;
+  background-image:  url("man.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media {
+  body{
+    text-align: center;
+    align-items: center;
+  }
+
+}
+/* for logo */
+
+.left{
+  display: inline-block;
+  top: 20px;
+  left: 40px;
+  position: absolute;
+  line-height: 1.5;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+.logo{
+  width:60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  filter: invert(100%);
+}
+.logo-wr{
+  text-align: center;
+  font-size: 16px;
+}
+
+/* for navbar */
+
+.center{
+  display: block;
+  width: 42%;
+  margin: 20px auto;
+}
+
+/* for buttons */
+
+.right{
+  display: inline-block;
+  top: 37px;
+  right: 34px;
+  position: absolute;
+}
+.btn{
+  margin: 0px 9px;
+  color: #DDDDDD;
+  background-color: transparent;
+  padding: 4px 14px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: 'Carter One', cursive;
+}
+.btn:hover{
+  background-color: #8D8DAA;
+}
+
+/* navbar */
+
+.navbar{
+  display: inline-block;
+}
+.navbar-li{
+  display: inline-block;
+  font-size: 21px;
+}
+.navbar-li-a{
+  color: #DDDDDD;
+  text-decoration: none;
+  padding: 34px 24px;
+}
+.navbar-li-a:hover{
+  color: #8D8DAA;
+}
+
+/* new container */
+
+.container {
+  border: 2px solid white;
+  margin: 106px 80px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 28px;
+}
+.form-group input {
+  font-family: 'Carter One', cursive;
+  text-align: center;
+  display: block;
+  width: 508px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 8px;
+}
+.container h1 {
+  text-align: center;
+  font-size: 36px;
+}
+.submit-btn{
+  display: block;
+  width: 74%;
+  margin: 20px auto;
+  font-size: 30px;
+  font-family: 'Carter One', cursive;
+  color: grey;
+}
+.submit-btn:hover{
+  background-color: #8D8DAA;
+}
+
+/* bottom container */
+
+.bottom-container{
+  text-align: center;
+  line-height: 1;
+  padding: 0 0 0;
+  font-size: 15px;
+}
+.footer-link{
+  margin: 10px 20px;
+  cursor: pointer;
+}
+.footer-link:hover{
+  color: #8D8DAA;
+}
